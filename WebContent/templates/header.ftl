@@ -30,7 +30,10 @@
     <ul id="navigation">
     	<li><a href="index" title="Index">View Homesite</a></li>
 	<#if navtype == "guest">
-    	<li><a href="guestgui?page=defaultwebpage" title="Search Offers">Search Offers</a></li>	
+    	<li><a href="guestgui?page=defaultwebpage" title="Search Offers">Search Offers</a></li>
+    	
+    	<li><a href="guestgui?page=defaultwebpage" title="Add a new Movie">add a new movie</a></li>
+    		
 	<#elseif navtype == "staffmember">
 		<li><a href="staffmembergui?page=insertoffer" title="Insert Offer">Insert Offer</a></li>
 	<#else>

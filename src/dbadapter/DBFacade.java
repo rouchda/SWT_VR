@@ -115,7 +115,7 @@ public class DBFacade implements IHolidayOffer {
 	}
 
 	/**
-	 * Inserts a new offer in the database.
+	 * Inserts a new offer in the database. ****for add movies
 	 * 
 	 * @param startTime
 	 * @param endTime
@@ -153,7 +153,7 @@ public class DBFacade implements IHolidayOffer {
 	}
 
 	/**
-	 * Inserts a booking into the database if there are enough capacities
+	 * Inserts a booking into the database if there are enough capacities +++for ratrmovies
 	 * 
 	 * @param arrivalTime
 	 * @param departureTime
